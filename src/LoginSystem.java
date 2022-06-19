@@ -16,9 +16,6 @@ public class LoginSystem {
     }
     
     void addUser() {
-        IOFile ioFile = new IOFile();
-        
-        String username = getData.getString("Username: ", "^.$");
         
     }
     
