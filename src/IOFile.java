@@ -14,7 +14,7 @@ import java.io.*;
 public class IOFile {
 
     void loadDataToList(ArrayList<User> listUser) {
-        File file = new File("src\\data.txt");
+        File file = new File("src\\data.dat");
         FileInputStream fileInputStream = null;
         ObjectInputStream objectInputStream = null;
 
@@ -33,6 +33,8 @@ public class IOFile {
                         break;
                     }
                 }
+            } else {
+                file.createNewFile();
             }
         } catch (IOException | ClassNotFoundException e) {
             System.out.println("Error in loadDataToList");
@@ -54,7 +56,7 @@ public class IOFile {
     }
 
     void saveDataToFile(ArrayList<User> listUser) {
-        File file = new File("src\\data.txt");
+        File file = new File("src\\data.dat");
         FileOutputStream fileOutputStream = null;
         ObjectOutputStream objectOutputStream = null;
 

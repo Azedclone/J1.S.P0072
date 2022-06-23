@@ -1,0 +1,15 @@
+Test
+1. Add user
+- Username có thể là bất kỳ ký tự gì
+- Password có thể là bất kỳ ký tự gì
+- Name chỉ được chứa chữ cái
+- Phone phải là số và có 10 hoặc 11 số
+- username của email chỉ bao gồm các chữ hoặc số hoặc dấu _ - và phải chứa @ cùng với domain
+- Address chỉ được chứa chữ cái
+- DOB phải trước hôm chạy chương trình
+
+2. Login
+- Username có thể là bất kỳ ký tự gì
+- Password có thể là bất kỳ ký tự gì
+- Nếu tài khoản không tồn tại thì thông báo đăng nhập thất bại
+- Nếu tài khoản tồn tại thì thông báo đăng nhập thành công
